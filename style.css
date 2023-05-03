@@ -1,0 +1,93 @@
+/* 設定全域字體 */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* 設定標題字體 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+/* 設定連結顏色 */
+a {
+  color: #0087C3;
+}
+
+/* 設定連結hover效果 */
+a:hover {
+  color: #005E8C;
+}
+
+/* 設定導覽列 */
+nav {
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #666;
+}
+
+/* 設定標題區塊 */
+header {
+  background-image: url('header-bg.jpg');
+  background-size: cover;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 4rem;
+}
+
+header p {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+/* 設定主要內容區塊 */
+main {
+  padding: 50px;
+}
+
+/* 設定段落 */
+p {
+  margin-bottom: 20px;
+}
+
+/* 設定列表 */
+ul {
+  margin-bottom: 20px;
+}
+
+/* 設定頁腳 */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
