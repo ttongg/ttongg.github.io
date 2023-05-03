@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,76 +8,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
       body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f6f4f4;
-  color: #444444;
-}
-
-header {
-  background-color: #8f4d4d;
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  color: #ffffff;
-}
-
-nav {
-  background-color: #BFEFFF;
-  padding: 10px;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-li {
-  margin: 0 10px;
-}
-
-a {
-  color: #444444;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-main {
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 20px;
-}
-
-h2 {
-  color: #8f4d4d;
-  margin-bottom: 10px;
-}
-
-ul {
-  margin-left: 20px;
-}
-
-footer {
-  background-color: #BFEFFF;
-  padding: 10px;
-  text-align: center;
-}
-
-p {
-  margin: 5px 0;
-}
+        background-color: #c6dae8;
+      }
+      header {
+        background-color: #1b4965;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      nav {
+        background-color: #1b4965;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+      }
+      nav ul li a:hover {
+        background-color: #8db9e2;
+        border-radius: 5px;
+      }
+      main {
+        padding: 20px;
+        margin: 20px;
+        background-color: #f0f5f5;
+        border-radius: 10px;
+      }
+      section {
+        margin-bottom: 30px;
+      }
+      section h2 {
+        color: #1b4965;
+        margin-bottom: 10px;
+      }
+      section ul {
+        margin-left: 20px;
+      }
+      footer {
+        background-color: #1b4965;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+      }
     </style>
   </head>
   <body>
@@ -99,7 +85,14 @@ p {
         <h2>學歷</h2>
         <ul>
           <li>台北大學資訊管理研究所 碩一</li>
-          <li>台北大學資訊管理系 學士</li>
+          <li>淡江大學資訊管理系 學士</li>
+        </ul>
+      </section>
+      <section id="projects">
+        <h2>專案</h2>
+        <ul>
+          <li>Android APP專案：使用 java 來撰寫。</li>
+          <li>機器學習專案：使用 python 來預測山難發生率</li>
         </ul>
       </section>
       <section id="contact">
