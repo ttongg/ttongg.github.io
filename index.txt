@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>陳怡靜個人網站</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <h1>陳怡靜個人網站</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#about">關於我</a></li>
+        <li><a href="#education">學歷</a></li>
+        <li><a href="#projects">專案</a></li>
+        <li><a href="#contact">聯絡我</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="about">
+        <h2>關於我</h2>
+        <p>大家好，我是陳怡靜，就讀於台北大學資訊管理研究所碩一。</p>
+        <p>我熱愛程式設計和資訊科技，對於大數據和人工智慧也有濃厚的興趣。</p>
+      </section>
+      <section id="education">
+        <h2>學歷</h2>
+        <ul>
+          <li>台北大學資訊管理研究所 碩一</li>
+          <li>台北大學資訊管理系 學士</li>
+        </ul>
+      </section>
+      <section id="projects">
+        <h2>專案</h2>
+        <ul>
+          <li>機器學習專案：使用 Python 和 TensorFlow 實現圖像識別</li>
+          <li>資料庫專案：使用 SQL Server 設計和實現一個學生管理系統</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>聯絡我</h2>
+        <p>電子郵件：aileechen0408@gmail.com</p>
+        <p>電話：0979-522-104</p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 陳怡靜</p>
+    </footer>
+  </body>
+</html>
